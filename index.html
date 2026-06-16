@@ -28,6 +28,7 @@
             <div class="hidden lg:flex items-center gap-8">
                 <a class="font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#story">Our Story</a>
                 <a class="font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#varieties">Rice Varieties</a>
+                <a class="font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#process-flow">Business Activity</a>
                 <a class="font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#quality">Quality Control</a>
                 <a class="font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#contact">Contact</a>
             </div>
@@ -38,6 +39,7 @@
         <div class="hidden lg:hidden border-t border-primary/5 bg-white py-6 px-6 space-y-4" id="mobile-menu">
             <a class="block font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#story">Our Story</a>
             <a class="block font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#varieties">Rice Varieties</a>
+            <a class="block font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#process-flow">Business Activity</a>
             <a class="block font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#quality">Quality Control</a>
             <a class="block font-label-caps text-label-caps text-primary hover:text-secondary transition-colors" href="#contact">Contact</a>
         </div>
@@ -486,8 +488,8 @@
                       <div class="w-14 h-14 bg-secondary flex items-center justify-center rounded-lg shrink-0"><span class="material-symbols-outlined text-2xl">call</span></div>
                       <div class="pt-1">
                           <h4 class="font-label-caps text-secondary-fixed mb-2 uppercase tracking-widest">HOTLINE</h4>
-                          <p class="font-body-std text-2xl font-headline-md mb-1">+95 95176846</p>
-                          <p class="font-body-std text-2xl font-headline-md mb-1">+95 9886644112</p>
+                          <p class="font-body-std text-xl font-headline-md mb-1">+95 95176846</p>
+                          <p class="font-body-std text-xl font-headline-md mb-1">+95 9886644112</p>
                       </div>
                   </div>
               </div>
@@ -496,7 +498,7 @@
           <!-- Right Column: Warehouse Image -->
           <div class="relative w-full h-full min-h-[400px] rounded-lg overflow-hidden editorial-shadow border border-white/10">
              
-              <img alt="J Agri Trading Warehouse" class="w-full h-full object-cover absolute inset-0" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtKNY4EgnueE126e13cevpLMpzv_syLPMyr-VDqpP3uLQlRIGhH9AToc7CidjhY5wBf_WrRzUZhuKFegXRhdJgnIK988GNv8CEhWyXvkeZ6Vnadu9plONJ0XfvrFgiI5cRx1G7V9BDAw-8-Mq135_LS55ve3wEO0Ga-AHesqYBu6K2_p3p1oMbE6McBbbVinV2GWcpg2ljiYSLkoOLaXABOsHNoj4Fqwf0osdLK8P1L-xutyJC5yCcvd96umhyie5wSyfFK2wKCKg">
+              <img alt="J Agri Trading Warehouse" class="w-full h-full object-cover absolute inset-0" loading="lazy" src="asset/images/content_pic.jpg">
               <div class="absolute inset-0 bg-primary/20"></div>
           </div>
 
@@ -513,7 +515,7 @@
                 
                 <div class="space-y-6 lg:col-span-2 pr-0 lg:pr-10">
                     <div class="flex items-center gap-4">
-                        <img alt="J Agri Trading Co.,Ltd Logo" class="h-10 w-auto brightness-200" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZxCrR-q7RrmupePUC760omnA5g2KG195fG1GNhW_K0duUupT-PKBoFrq5HyBblpS19sHJJBlsgIVzver4i2TXEcwxt-SvJch3qeU-I8_oPzI6qmW2hD3IJmDPbwVdOkuF6qca7jWO1OxyqXCn5iYQQSIIdCsQmc0bZw6uFahBDbyPJGc7FzOqV0SMYm1gqP1qfIJzuW-F2dcZiplUIHHQuk-YZX8gmhL1zNwUR6SDPmNalYIhN3xSt3MggTllStUuyB7wEjAnFBQ">
+                        <img alt="J Agri Trading Co.,Ltd Logo" class="h-10 w-auto brightness-200" loading="lazy" src="asset/images/J Agri Logo.jpg">
                         <span class="font-headline-md text-white">J Agri Trading</span>
                     </div>
                     <p class="text-sm text-surface-variant/80 leading-relaxed max-w-md">
@@ -526,6 +528,7 @@
                     <ul class="space-y-4">
                         <li class=""><a class="text-sm text-surface-variant/80 hover:text-secondary-fixed transition-colors" href="#heritage">Our Heritage</a></li>
                         <li class=""><a class="text-sm text-surface-variant/80 hover:text-secondary-fixed transition-colors" href="#varieties">Rice Varieties</a></li>
+                        <li class=""><a class="text-sm text-surface-variant/80 hover:text-secondary-fixed transition-colors" href="#process-flow">Business Activity</a></li>
                         <li class=""><a class="text-sm text-surface-variant/80 hover:text-secondary-fixed transition-colors" href="#">Export Regions</a></li>
                         <li class=""><a class="text-sm text-surface-variant/80 hover:text-secondary-fixed transition-colors" href="#quality">Quality Control</a></li>
                     </ul>
@@ -553,16 +556,12 @@
         </div>
     </footer>
 
-    <script>
-        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
-        const mobileMenu = document.getElementById('mobile-menu');
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="fixed bottom-8 right-8 z-50 p-3 rounded-full bg-secondary text-white shadow-xl opacity-0 invisible transition-all duration-300 hover:bg-secondary/80 focus:outline-none translate-y-4">
+        <span class="material-symbols-outlined text-2xl leading-none">arrow_upward</span>
+    </button>
 
-        mobileMenuToggle.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-    </script>
-
-</body> </html>
+    <script src="main.js"></script>
 
 </body>
 </html>
